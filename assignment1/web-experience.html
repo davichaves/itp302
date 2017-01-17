@@ -3,7 +3,7 @@
 	<title>Davi's Web Experiences</title>
 	<link rel="stylesheet" href="webexp.css" type="text/css"/>
 	<style>
-		div.boxes {
+		.boxes {
 			height: 400px;
 			border: 5px solid #990000;
 			border-radius: 10px;
@@ -17,29 +17,31 @@
 	<header id="myHeader">
 		<h1>Davi's Web Experiences</h1>
 	</header>
-	<ul class="nav">
-	  <li class="nav"><a href="http://www.uscitpweb.com/itp302/sp17/dchaves/">Home</a></li>
-	  <li class="nav"><a href="mailto:dchaves@usc.edu">Contact</a></li>
-	  <li class="dropdown nav">
-	    <a href="javascript:void(0)" class="dropbtn">Projects</a>
-	    <div class="dropdown-content">
-	      <a href="http://xkcdforum.herokuapp.com" target="_blank">XKCD Forum</a>
-	      <a href="http://www.unisavior.com/" target="_blank">Unisavior</a>
-	    </div>
-	  </li>
-	</ul>
+	<nav>
+		<ul class="nav">
+		  <li class="nav"><a href="http://www.uscitpweb.com/itp302/sp17/dchaves/">Home</a></li>
+		  <li class="nav"><a href="mailto:dchaves@usc.edu">Contact</a></li>
+		  <li class="dropdown nav">
+		    <a href="javascript:void(0)" class="dropbtn">Projects</a>
+		    <div class="dropdown-content">
+		      <a href="http://xkcdforum.herokuapp.com" target="_blank">XKCD Forum</a>
+		      <a href="http://www.unisavior.com/" target="_blank">Unisavior</a>
+		    </div>
+		  </li>
+		</ul>
+	</nav>
 	<br>
 	<div style="float:left; width:30%;" class="boxes">
 		<center><img src="myImage.jpg" style="width: 80%;"></center>
 	</div>
 
-	<div style="float:left; width:30%; text-align:left;" class="boxes">
+	<section style="float:left; width:30%; text-align:left;" class="boxes">
 		<center><h1>About me</h1></center>
 		<p>I'm a senior studying computer science at USC. I love snowboarding and surfing. I was born and raised in Brazil and I'm a huge fan of sports in general.</p>
 		<p>I took several classes at USC including ITP 104, 301 and 404.</p>
-	</div>
+	</section>
 
-	<div style="float:left; width:30%; text-align:left;" class="boxes">
+	<aside style="float:left; width:30%; text-align:left;" class="boxes">
 		<center><h1>Skills</h1></center>
 		<ul>
 		  <li>HTML</li>
@@ -48,7 +50,7 @@
 		  <li>NodeJS</li>
 		  <li>Ruby on Rails</li>
 		</ul>
-	</div>
+	</aside>
 	<footer>
 		<a href="http://www.uscitpweb.com">USC ITP 302 Spring 2017</a>
 	</footer>
