@@ -26,14 +26,20 @@ footer {
   margin: auto;
 }
 .rightForm {
+  text-align: left;
   width: 49%;
   float: right;
   margin: auto;
 }
-
 .formEntry {
   height: 30px;
   line-height: 30px;
   margin-top: 5px;
   margin-bottom: 5px;
+}
+a {
+  color: white;
+}
+a:hover {
+  color: #FFCC00;
 }
