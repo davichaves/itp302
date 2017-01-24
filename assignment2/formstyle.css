@@ -1,0 +1,39 @@
+#myBody {
+  background-color: #FFCC00;
+  text-align: center;
+}
+#myHeader {
+  background-color: #990000;
+  width: 50%;
+  text-align: center;
+  overflow: hidden;
+  margin-left: 25%;
+  color: white;
+  font-family: serif;
+  font-size: 25px;
+}
+footer {
+  background-color: #990000;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  margin-top: 10%;
+}
+.leftForm {
+  text-align: right;
+  float: left;
+  width: 49%;
+  margin: auto;
+}
+.rightForm {
+  width: 49%;
+  float: right;
+  margin: auto;
+}
+
+.formEntry {
+  height: 30px;
+  line-height: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}

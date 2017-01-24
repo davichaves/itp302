@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Snowboard Survey:</title>
+	<link rel="stylesheet" href="formstyle.css" type="text/css"/>
+	<style>
+    .center {
+      margin: auto;
+      width: 50%;
+      border: 5px solid #990000;
+      border-radius: 10px;
+      padding: 10px;
+    }
+	</style>
+</head>
+<body id="myBody">
+	<header id="myHeader">
+		<h1>Snowboard Survey:</h1>
+	</header>
+	<br>
+	<div style="text-align:left;" class="center">
+		<center><h1>Let's gather some info</h1></center>
+    <form>
+      <div class="formEntry">
+        <div class="leftForm">
+          First Name:
+        </div>
+        <div class="rightForm">
+          <input type="text" name="firstname" title="First Name" required autofocus placeholder="Enter first name">
+        </div>
+      </div>
+      <div class="formEntry">
+        <div class="leftForm">
+          Last Name:
+        </div>
+        <div class="rightForm">
+          <input type="text" name="lastname" title="Last Name" required placeholder="Enter last name">
+        </div>
+      </div>
+      <div class="formEntry">
+        <div class="leftForm">
+          Gender:
+        </div>
+        <div class="rightForm">
+          <input type="radio" name="gender" value="male" checked>Male
+          <input type="radio" name="gender" value="female">Female
+          <input type="radio" name="gender" value="other">Other
+        </div>
+      </div>
+      <div class="formEntry">
+        <div class="leftForm">
+          Date of Birth:
+        </div>
+        <div class="rightForm">
+          <input type="date" name="dob" value="dob" required>
+        </div>
+      </div>
+      <div class="formEntry">
+        <div class="leftForm">
+          Years of snowboarding experience:
+        </div>
+        <div class="rightForm">
+          <input type="number" name="satisfaction" min="1" max="100">
+        </div>
+      </div>
+      <div class="formEntry">
+        <div class="leftForm">
+          How would you grade your snowboard skills?
+        </div>
+        <div class="rightForm">
+          0 <input type="range" name="points" min="0" max="10" step="1"> 10
+        </div>
+      </div>
+      <div class="formEntry">
+        <div class="leftForm">
+          Favorite snowboard color?
+        </div>
+        <div class="rightForm">
+          <input type="color" name="favcolor">
+        </div>
+      </div>
+      <div class="formEntry">
+        <div class="leftForm">
+          What's your stance?
+        </div>
+        <div class="rightForm">
+          <input list="stance" required>
+          <datalist id="stance">
+            <option value="Regular">
+            <option value="Goofie">
+            <option value="Both">
+          </datalist>
+        </div>
+      </div>
+      <center><input type="reset">
+      <input type="submit"></center>
+    </form>
+	</div>
+	<footer>
+		<a href="http://www.uscitpweb.com">USC ITP 302 Spring 2017</a>
+	</footer>
+</body>
+</html>
